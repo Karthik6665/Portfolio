@@ -1,0 +1,264 @@
+.navbar{
+  background: rgb(30, 30, 30);
+  height: 5rem;
+  width: 100vw;
+  margin: 0 auto;
+  padding :1rem 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  position: sticky;
+  top:0;
+  left:0;
+  z-index: 3;
+
+}
+
+.lo{
+  object-fit: cover;
+  width: 4rem;
+  height: 3rem;
+}
+.navitems{
+  margin:2rem;
+  color: white;
+  cursor: pointer;
+  font-size:1.5rem;
+  font-weight: 600;
+}
+.navitems:hover{
+  color:yellow;
+  border-bottom: 3px solid yellow;
+  padding-bottom: 0.5rem;
+}
+
+.cbtn{
+  background-color: white;
+  color:black;
+  border: none;
+  border-radius: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.8rem 1rem;
+  cursor: pointer;
+}
+.hbtn{
+  margin-top: 2rem ;
+  background-color: white;
+  color: black;
+  border: none;
+  border-radius: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.75rem 2rem;
+}
+
+#intro{
+  height:calc(100-4rem);
+  width: 100vw;
+  max-width: 75rem;
+  margin: 0 auto;
+  overflow: hidden;
+}
+.introcontent{
+  height: 60vh;
+  width: 100vw;
+  padding: 2rem;
+  font-size: 3rem;
+  font-weight: 700;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.hello{
+  font-size: 1.75rem;
+  font-weight: 100;
+}
+.introname{
+  color: yellow;
+  margin-left: 1rem;
+}
+.intropara{
+  font-size: 1.5rem;
+  font-weight: 200;
+  letter-spacing: 1px;
+}
+#skills{
+  overflow: hidden;
+  width:100vw;
+  max-width: 65rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin: 0 auto;
+}
+.skilltitle{
+  font-size: 3rem;
+  font-weight: 600;
+  padding-top: 3rem;
+  margin-bottom: 1.5rem;
+}
+.skilldesc{
+  font-weight: 200;
+  font-size: 1.05rem;
+  max-width: 50rem;
+  padding: 0 2rem;
+}
+.skillbars{
+  margin:1.5rem;
+  width: 120vw;
+  max-width: 80%;
+  text-align: left;
+}
+.skillbar{
+  display:flex;
+  margin: 1rem;
+  padding: 1.5rem 2rem;
+  border-radius: 0.5rem;
+  background: rgb(50, 49, 49);
+}
+
+.skillbartext>p{
+  font-size: 1rem;
+}
+
+.pname{
+  color:yellow;
+  font-size: 3rem;
+  font-weight: 600;
+  padding-top: 3rem;
+  margin-bottom: 1.5rem;
+}
+.role{
+  color: yellow;
+  font-size: 1rem;
+  font-weight: 400;
+}
+.r{
+  font-size: 1rem;
+  font-weight: 400;
+}
+.Iimg{
+  object-fit: fill;
+  width: 10rem;
+  height: 6rem;
+}
+
+.Pimg{
+  object-fit: fill;
+  width:40rem;
+  height: 15rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 1rem 2rem;
+}
+.inf{
+  font-size: 1.rem;
+  font-weight: 300;
+}
+.x{
+  font-size: 1rem;
+  font-weight: 400;
+}
+.head{
+  font-size: 1.5rem;
+  font-weight: 600;
+  display: flex;
+  justify-content: space-between;
+}
+.contact-form-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+.contact-form-container>h1{
+  font-size: 4rem;
+  font-weight: 300;
+  margin: 2rem;
+}
+
+.contact-form {
+  width: 60vw;
+  height: auto; /* Adjust width as needed */
+  padding: 20px;
+  border: 1px solid rgb(50, 49, 49);
+  border-radius: 5px;
+}
+
+.contact-form label {
+  margin-bottom: 5px;
+  font-size: 2rem;
+  font-weight: 400;
+}
+
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  color:white;
+  font-size: 1rem;
+  font-weight: 400;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid rgb(50, 49, 49);
+  border-radius: 5px;
+}
+
+.contact-form textarea {
+  height: auto; 
+}
+
+.submit-button {
+  width: 100%;
+  padding: 1rem;
+  background-color: white;
+  color: black;
+  border: none;
+  border-radius: 2rem;
+  cursor: pointer;
+}
+
+.submit-button:hover {
+  background-color: rgb(202, 145, 145);
+}
+
+#sec {
+  overflow: hidden;
+  width: 100vw;
+  max-width: 65rem;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); 
+  grid-gap: 1rem; 
+  justify-items: center;
+  align-items: center;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.Himg {
+  object-fit: fill;
+  width: 14rem; 
+  height: 7rem; 
+}
+.v{
+  color:white;
+  margin: 2rem;
+  font-size: 1.5rem;
+  font-weight: 300;
+}
+.v:hover{
+  cursor: pointer;
+  color:yellow;
+  border-bottom: 1px solid yellow;
+}
+.Himg:hover {
+  cursor: pointer;
+  filter: brightness(0.9); 
+  box-shadow: 0 0 10px yellow; 
+}
